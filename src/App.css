@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+header {
+  background: #385899;
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 5px;
+  width: 9%;
+}
+
+nav > div {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+
+nav > span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fotoPerfil {
+  display: flex;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.postHeader {
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  text-align: left;
+  margin: 10px;
+  display: flex;
+  font-size: 14px;
+  color: #3e3e3e;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: #eeeeee;
+}
+
+.coment {
+  text-align: left;
+  padding: 15px;
+  display: flex;
+  font-size: 14px;
+  color: #3e3e3e;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eeeeee;
+  border-radius: 8px;
+}
+
+.date {
+  font-size: 6px;
+  text-align: left;
+  color: darkgray;
+}
+
+.headerDetails {
+  font-weight: bold;
+}
+
+.nameComment {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.postListDetails {
+  text-align: center;
+  background-color: white;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.teste {
+  padding-right: 10px;
+}
